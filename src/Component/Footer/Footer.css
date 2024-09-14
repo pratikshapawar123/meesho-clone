@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    padding: 4rem 8rem 4rem 8rem;
+    margin-top: 3rem;
+    background-color: white;
+}
+.footer ul h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(41, 37, 37);
+}
+.footer ul li{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(101, 100, 100);
+
+}
+.footer ul h4{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(101, 100, 100);
+}
+.footer ul div {
+ font-size: 1.5rem;
+ color: rgb(101, 100, 100);
+}
+.footer ul p{
+    color: rgb(101, 100, 100);
+    font-size: 1rem;
+    margin-top: 1rem;
+}

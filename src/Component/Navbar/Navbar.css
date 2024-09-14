@@ -1,0 +1,96 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   padding-left: 5%;
+   padding-right: 5%;
+   
+}
+.nav .logo{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+    background: transparent;
+    color:#63095a;
+}
+.nav .input{
+  
+  width: 400px;
+  border: 1px solid rgb(139, 139, 163);
+    border-radius: 4px;
+    padding: 11px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    margin-left:1.5rem ;
+}
+.nav .input input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #353543;
+    margin-left:2rem ;
+    
+}
+#hr{
+    
+    background-color: rgb(206, 206, 222);
+    border-radius: 2px;
+    width: 1px;
+    height: 40px;
+    margin-left:1rem ;
+   
+}
+.nav-profile{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #353543;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left:1.5rem ;
+}
+.nav-below ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav-below ul li:hover{
+    color:#63095a;
+    text-decoration: underline;
+}
+#spl-hr{
+    width: 100%;
+    
+}
+

@@ -1,0 +1,43 @@
+.img-conainer  {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   align-items: center;
+   margin: 6rem;
+   gap:20px;
+   
+}
+.img-desplay-container{
+border: 0.2px solid rgb(162, 161, 161);
+padding: 0.2rem;
+border-radius: 5px;
+box-shadow: 2px 2px 2px 2px rgb(226, 224, 224);
+}
+.img-conainer .img-desplay-container img{
+   height: 15rem;
+   width: 15rem;
+   margin:2rem;
+   
+}
+.img-desplay-container p{
+    font-weight: 700;
+    color: rgb(106, 100, 100);
+    font-size: 1rem;
+
+}
+.img-desplay-container #p{
+   font-size: 0.8rem;
+   font-weight: 200;
+   color: rgb(84, 82, 82);
+}
+.img-desplay-container h3{
+    font-size: 1.5rem;
+    color: rgb(50, 49, 49);
+}
+.img-desplay-container button{
+    font-size: 1rem;
+    background-color: rgb(13, 81, 13);
+    color: white;
+    border-radius:15%;
+    padding: 0.5rem;
+    
+}
